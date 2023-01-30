@@ -9,7 +9,7 @@ public class Carro implements Veiculo {
   }
 }
 //-----
-public class Caminhao implements Veiculo{
+public class Bicicleta implements Veiculo{
   @Override
   public double calcular() {
     return this.getValue() * 0.9;
@@ -17,7 +17,7 @@ public class Caminhao implements Veiculo{
 }
 
 //----
-Veiculo a = new Carro();
+Veiculo a = new Bicicleta();
 a.calcular();
 
 Veiculo b = new Caminhao();
